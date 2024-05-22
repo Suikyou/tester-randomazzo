@@ -1,0 +1,649 @@
+2024-05-22 23:53:36,895 INFO:Starting static hardware checks...
+2024-05-22 23:53:36,895 INFO:RAM Information: svmem(total=12336435200, available=9475186688, percent=23.2, used=2207707136, free=7457595392, active=1379250176, inactive=2753593344, buffers=119517184, cached=2551615488, shared=350175232, slab=238903296)
+2024-05-22 23:53:36,895 INFO:Storage Information: Total: 250375106560, Used: 35684196352, Free: 201898020864
+2024-05-22 23:53:36,916 INFO:Battery Information:
+  native-path:          BAT0
+  vendor:               Hewlett-Packard
+  model:                Primary
+  serial:               00001 2023/10/07
+  power supply:         yes
+  updated:              Wednesday, 22 May, 2024 11:53:24 PM (12 seconds ago)
+  has history:          yes
+  has statistics:       yes
+  battery
+    present:             yes
+    rechargeable:        yes
+    state:               discharging
+    warning-level:       none
+    energy:              19.5542 Wh
+    energy-empty:        0 Wh
+    energy-full:         33.8993 Wh
+    energy-full-design:  47.9325 Wh
+    energy-rate:         4.97328 W
+    voltage:             11.193 V
+    charge-cycles:       5
+    time to empty:       3.9 hours
+    percentage:          57%
+    capacity:            70.7229%
+    technology:          lithium-ion
+    icon-name:          'battery-good-symbolic'
+  History (charge):
+    1716393134	57.000	discharging
+  History (rate):
+    1716393204	4.973	discharging
+    1716393134	6.715	discharging
+    1716393111	5.470	discharging
+
+
+2024-05-22 23:53:37,919 INFO:CPU Information: scputimes(user=1.1, nice=0.0, system=0.5, idle=98.3, iowait=0.1, irq=0.0, softirq=0.0, steal=0.0, guest=0.0, guest_nice=0.0)
+2024-05-22 23:53:37,920 INFO:Network Information: {'lo': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='127.0.0.1', netmask='255.0.0.0', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 10>, address='::1', netmask='ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='00:00:00:00:00:00', netmask=None, broadcast=None, ptp=None)], 'wlp58s0': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.168.3.66', netmask='255.255.248.0', broadcast='172.168.7.255', ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 10>, address='fe80::f2d2:669b:3989:f8ae%wlp58s0', netmask='ffff:ffff:ffff:ffff::', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='74:d8:3e:95:f7:77', netmask=None, broadcast='ff:ff:ff:ff:ff:ff', ptp=None)], 'virbr0': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='192.168.122.1', netmask='255.255.255.0', broadcast='192.168.122.255', ptp=None), snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='52:54:00:c3:d3:bc', netmask=None, broadcast='ff:ff:ff:ff:ff:ff', ptp=None)], 'enp0s31f6': [snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='b0:5c:da:eb:8e:33', netmask=None, broadcast='ff:ff:ff:ff:ff:ff', ptp=None)]}
+2024-05-22 23:53:37,941 INFO:Audio Devices:
+**** List of PLAYBACK Hardware Devices ****
+card 0: sofhdadsp [sof-hda-dsp], device 0: HDA Analog (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 1: HDA Digital (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 3: HDMI1 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 4: HDMI2 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 5: HDMI3 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+
+2024-05-22 23:53:37,942 INFO:Static hardware checks completed.
+2024-05-22 23:53:37,942 INFO:Starting dynamic hardware checks...
+2024-05-22 23:53:37,942 INFO:Checking keyboard...
+2024-05-22 23:53:47,944 WARNING:Keyboard check timed out. It may not be working properly.
+2024-05-22 23:53:47,945 INFO:Checking trackpad...
+2024-05-22 23:53:47,954 INFO:Trackpad is working properly.
+2024-05-22 23:53:47,955 INFO:Dynamic hardware checks completed.
+2024-05-22 23:58:48,858 INFO:RAM Information: svmem(total=12336435200, available=9341272064, percent=24.3, used=2313175040, free=7243902976, active=1401999360, inactive=2923704320, buffers=124305408, cached=2655051776, shared=372973568, slab=252809216)
+2024-05-22 23:58:48,859 INFO:Storage Information: Total: 250375106560, Used: 35690618880, Free: 201891598336
+2024-05-22 23:58:48,875 INFO:Battery Information:
+  native-path:          BAT0
+  vendor:               Hewlett-Packard
+  model:                Primary
+  serial:               00001 2023/10/07
+  power supply:         yes
+  updated:              Wednesday, 22 May, 2024 11:58:25 PM (23 seconds ago)
+  has history:          yes
+  has statistics:       yes
+  battery
+    present:             yes
+    rechargeable:        yes
+    state:               discharging
+    warning-level:       none
+    energy:              19.0691 Wh
+    energy-empty:        0 Wh
+    energy-full:         33.8993 Wh
+    energy-full-design:  47.9325 Wh
+    energy-rate:         6.78396 W
+    voltage:             11.06 V
+    charge-cycles:       5
+    time to empty:       2.8 hours
+    percentage:          56%
+    capacity:            70.7229%
+    technology:          lithium-ion
+    icon-name:          'battery-good-symbolic'
+  History (rate):
+    1716393505	6.784	discharging
+    1716393482	7.376	discharging
+    1716393459	6.471	discharging
+    1716393435	5.165	discharging
+
+
+2024-05-22 23:58:49,877 INFO:CPU Information: scputimes(user=0.5, nice=0.0, system=0.0, idle=99.5, iowait=0.0, irq=0.0, softirq=0.0, steal=0.0, guest=0.0, guest_nice=0.0)
+2024-05-22 23:58:49,879 INFO:Network Information: {'lo': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='127.0.0.1', netmask='255.0.0.0', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 10>, address='::1', netmask='ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='00:00:00:00:00:00', netmask=None, broadcast=None, ptp=None)], 'wlp58s0': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.168.3.66', netmask='255.255.248.0', broadcast='172.168.7.255', ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 10>, address='fe80::f2d2:669b:3989:f8ae%wlp58s0', netmask='ffff:ffff:ffff:ffff::', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='74:d8:3e:95:f7:77', netmask=None, broadcast='ff:ff:ff:ff:ff:ff', ptp=None)], 'virbr0': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='192.168.122.1', netmask='255.255.255.0', broadcast='192.168.122.255', ptp=None), snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='52:54:00:c3:d3:bc', netmask=None, broadcast='ff:ff:ff:ff:ff:ff', ptp=None)], 'enp0s31f6': [snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='b0:5c:da:eb:8e:33', netmask=None, broadcast='ff:ff:ff:ff:ff:ff', ptp=None)]}
+2024-05-22 23:58:49,889 INFO:Audio Devices:
+**** List of PLAYBACK Hardware Devices ****
+card 0: sofhdadsp [sof-hda-dsp], device 0: HDA Analog (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 1: HDA Digital (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 3: HDMI1 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 4: HDMI2 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 5: HDMI3 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+
+2024-05-22 23:58:49,889 INFO:Checking keyboard...
+2024-05-22 23:58:59,891 WARNING:Keyboard check timed out. It may not be working properly.
+2024-05-22 23:58:59,892 INFO:Checking trackpad...
+2024-05-22 23:58:59,910 INFO:Trackpad is working properly.
+2024-05-23 00:06:35,376 INFO:RAM Information: svmem(total=12336435200, available=9342013440, percent=24.3, used=2309918720, free=7149764608, active=1466494976, inactive=2941132800, buffers=133459968, cached=2743291904, shared=370298880, slab=264581120)
+2024-05-23 00:06:35,376 INFO:Storage Information: Total: 250375106560, Used: 35765288960, Free: 201816928256
+2024-05-23 00:06:35,391 INFO:Battery Information:
+  native-path:          BAT0
+  vendor:               Hewlett-Packard
+  model:                Primary
+  serial:               00001 2023/10/07
+  power supply:         yes
+  updated:              Thursday, 23 May, 2024 12:06:31 AM (4 seconds ago)
+  has history:          yes
+  has statistics:       yes
+  battery
+    present:             yes
+    rechargeable:        yes
+    state:               discharging
+    warning-level:       none
+    energy:              18.4454 Wh
+    energy-empty:        0 Wh
+    energy-full:         33.8993 Wh
+    energy-full-design:  47.9325 Wh
+    energy-rate:         6.06913 W
+    voltage:             11.168 V
+    charge-cycles:       5
+    time to empty:       3.0 hours
+    percentage:          54%
+    capacity:            70.7229%
+    technology:          lithium-ion
+    icon-name:          'battery-good-symbolic'
+  History (charge):
+    1716393899	54.000	discharging
+  History (rate):
+    1716393991	6.069	discharging
+    1716393968	5.811	discharging
+    1716393945	6.327	discharging
+    1716393922	5.092	discharging
+    1716393899	4.935	discharging
+
+
+2024-05-23 00:06:36,393 INFO:CPU Information: scputimes(user=0.4, nice=0.0, system=0.1, idle=99.5, iowait=0.0, irq=0.0, softirq=0.0, steal=0.0, guest=0.0, guest_nice=0.0)
+2024-05-23 00:06:36,394 INFO:Network Information: {'lo': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='127.0.0.1', netmask='255.0.0.0', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 10>, address='::1', netmask='ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='00:00:00:00:00:00', netmask=None, broadcast=None, ptp=None)], 'wlp58s0': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.168.3.66', netmask='255.255.248.0', broadcast='172.168.7.255', ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 10>, address='fe80::f2d2:669b:3989:f8ae%wlp58s0', netmask='ffff:ffff:ffff:ffff::', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='74:d8:3e:95:f7:77', netmask=None, broadcast='ff:ff:ff:ff:ff:ff', ptp=None)], 'virbr0': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='192.168.122.1', netmask='255.255.255.0', broadcast='192.168.122.255', ptp=None), snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='52:54:00:c3:d3:bc', netmask=None, broadcast='ff:ff:ff:ff:ff:ff', ptp=None)], 'enp0s31f6': [snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='b0:5c:da:eb:8e:33', netmask=None, broadcast='ff:ff:ff:ff:ff:ff', ptp=None)]}
+2024-05-23 00:06:36,404 INFO:Audio Devices:
+**** List of PLAYBACK Hardware Devices ****
+card 0: sofhdadsp [sof-hda-dsp], device 0: HDA Analog (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 1: HDA Digital (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 3: HDMI1 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 4: HDMI2 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 5: HDMI3 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+
+2024-05-23 00:06:36,404 INFO:Checking keyboard...
+2024-05-23 00:06:46,406 WARNING:Keyboard check timed out. It may not be working properly.
+2024-05-23 00:06:46,407 INFO:Checking trackpad...
+2024-05-23 00:06:46,416 INFO:Trackpad is working properly.
+2024-05-23 00:08:52,798 INFO:RAM Information: svmem(total=12336435200, available=9058619392, percent=26.6, used=2585731072, free=6865993728, active=1467031552, inactive=3218235392, buffers=133763072, cached=2750947328, shared=377880576, slab=264454144)
+2024-05-23 00:08:52,799 INFO:Storage Information: Total: 250375106560, Used: 35765325824, Free: 201816891392
+2024-05-23 00:08:52,815 INFO:Battery Information:
+  native-path:          BAT0
+  vendor:               Hewlett-Packard
+  model:                Primary
+  serial:               00001 2023/10/07
+  power supply:         yes
+  updated:              Thursday, 23 May, 2024 12:08:50 AM (2 seconds ago)
+  has history:          yes
+  has statistics:       yes
+  battery
+    present:             yes
+    rechargeable:        yes
+    state:               discharging
+    warning-level:       none
+    energy:              18.249 Wh
+    energy-empty:        0 Wh
+    energy-full:         33.8993 Wh
+    energy-full-design:  47.9325 Wh
+    energy-rate:         5.46887 W
+    voltage:             10.691 V
+    charge-cycles:       5
+    time to empty:       3.3 hours
+    percentage:          53%
+    capacity:            70.7229%
+    technology:          lithium-ion
+    icon-name:          'battery-good-symbolic'
+  History (charge):
+    1716394130	53.000	discharging
+  History (rate):
+    1716394130	5.469	discharging
+    1716394107	4.472	discharging
+    1716394061	4.257	discharging
+
+
+2024-05-23 00:08:53,817 INFO:CPU Information: scputimes(user=2.0, nice=0.0, system=0.1, idle=97.9, iowait=0.0, irq=0.0, softirq=0.0, steal=0.0, guest=0.0, guest_nice=0.0)
+2024-05-23 00:08:53,818 INFO:Network Information: {'lo': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='127.0.0.1', netmask='255.0.0.0', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 10>, address='::1', netmask='ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='00:00:00:00:00:00', netmask=None, broadcast=None, ptp=None)], 'wlp58s0': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.168.3.66', netmask='255.255.248.0', broadcast='172.168.7.255', ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 10>, address='fe80::f2d2:669b:3989:f8ae%wlp58s0', netmask='ffff:ffff:ffff:ffff::', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='74:d8:3e:95:f7:77', netmask=None, broadcast='ff:ff:ff:ff:ff:ff', ptp=None)], 'virbr0': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='192.168.122.1', netmask='255.255.255.0', broadcast='192.168.122.255', ptp=None), snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='52:54:00:c3:d3:bc', netmask=None, broadcast='ff:ff:ff:ff:ff:ff', ptp=None)], 'enp0s31f6': [snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='b0:5c:da:eb:8e:33', netmask=None, broadcast='ff:ff:ff:ff:ff:ff', ptp=None)]}
+2024-05-23 00:08:53,828 INFO:Audio Devices:
+**** List of PLAYBACK Hardware Devices ****
+card 0: sofhdadsp [sof-hda-dsp], device 0: HDA Analog (*) []
+  Subdevices: 0/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 1: HDA Digital (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 3: HDMI1 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 4: HDMI2 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 5: HDMI3 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+
+2024-05-23 00:08:53,828 INFO:Checking keyboard...
+2024-05-23 00:09:03,830 WARNING:Keyboard check timed out. It may not be working properly.
+2024-05-23 00:09:03,830 INFO:Checking trackpad...
+2024-05-23 00:09:03,840 INFO:Trackpad is working properly.
+2024-05-23 00:10:30,088 INFO:RAM Information: svmem(total=12336435200, available=9316950016, percent=24.5, used=2310938624, free=7124082688, active=1467244544, inactive=2941825024, buffers=133976064, cached=2767437824, shared=394326016, slab=264724480)
+2024-05-23 00:10:30,088 INFO:Storage Information: Total: 250375106560, Used: 35765338112, Free: 201816879104
+2024-05-23 00:10:30,115 INFO:Battery Information:
+  native-path:          BAT0
+  vendor:               Hewlett-Packard
+  model:                Primary
+  serial:               00001 2023/10/07
+  power supply:         yes
+  updated:              Thursday, 23 May, 2024 12:10:00 AM (30 seconds ago)
+  has history:          yes
+  has statistics:       yes
+  battery
+    present:             yes
+    rechargeable:        yes
+    state:               discharging
+    warning-level:       none
+    energy:              18.1682 Wh
+    energy-empty:        0 Wh
+    energy-full:         33.8993 Wh
+    energy-full-design:  47.9325 Wh
+    energy-rate:         4.81132 W
+    voltage:             11.212 V
+    charge-cycles:       5
+    time to empty:       3.8 hours
+    percentage:          53%
+    capacity:            70.7229%
+    technology:          lithium-ion
+    icon-name:          'battery-good-symbolic'
+  History (charge):
+    1716394130	53.000	discharging
+  History (rate):
+    1716394200	4.811	discharging
+    1716394177	6.114	discharging
+    1716394130	5.469	discharging
+
+
+2024-05-23 00:10:31,118 INFO:CPU Information: scputimes(user=0.5, nice=0.0, system=0.3, idle=99.1, iowait=0.1, irq=0.0, softirq=0.0, steal=0.0, guest=0.0, guest_nice=0.0)
+2024-05-23 00:10:31,119 INFO:Network Information: {'lo': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='127.0.0.1', netmask='255.0.0.0', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 10>, address='::1', netmask='ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='00:00:00:00:00:00', netmask=None, broadcast=None, ptp=None)], 'wlp58s0': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.168.3.66', netmask='255.255.248.0', broadcast='172.168.7.255', ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 10>, address='fe80::f2d2:669b:3989:f8ae%wlp58s0', netmask='ffff:ffff:ffff:ffff::', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='74:d8:3e:95:f7:77', netmask=None, broadcast='ff:ff:ff:ff:ff:ff', ptp=None)], 'virbr0': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='192.168.122.1', netmask='255.255.255.0', broadcast='192.168.122.255', ptp=None), snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='52:54:00:c3:d3:bc', netmask=None, broadcast='ff:ff:ff:ff:ff:ff', ptp=None)], 'enp0s31f6': [snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='b0:5c:da:eb:8e:33', netmask=None, broadcast='ff:ff:ff:ff:ff:ff', ptp=None)]}
+2024-05-23 00:10:31,128 INFO:Audio Devices:
+**** List of PLAYBACK Hardware Devices ****
+card 0: sofhdadsp [sof-hda-dsp], device 0: HDA Analog (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 1: HDA Digital (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 3: HDMI1 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 4: HDMI2 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 5: HDMI3 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+
+2024-05-23 00:10:31,128 INFO:Checking keyboard...
+2024-05-23 00:10:41,130 WARNING:Keyboard check timed out. It may not be working properly.
+2024-05-23 00:10:41,131 INFO:Checking trackpad...
+2024-05-23 00:10:41,139 INFO:Trackpad is working properly.
+2024-05-23 00:12:38,948 INFO:RAM Information: svmem(total=12336435200, available=9259761664, percent=24.9, used=2372476928, free=7065817088, active=1467867136, inactive=3014021120, buffers=134496256, cached=2763644928, shared=389984256, slab=264691712)
+2024-05-23 00:12:38,948 INFO:Storage Information: Total: 250375106560, Used: 35765407744, Free: 201816809472
+2024-05-23 00:12:38,963 INFO:Battery Information:
+  native-path:          BAT0
+  vendor:               Hewlett-Packard
+  model:                Primary
+  serial:               00001 2023/10/07
+  power supply:         yes
+  updated:              Thursday, 23 May, 2024 12:12:19 AM (19 seconds ago)
+  has history:          yes
+  has statistics:       yes
+  battery
+    present:             yes
+    rechargeable:        yes
+    state:               discharging
+    warning-level:       none
+    energy:              18.0065 Wh
+    energy-empty:        0 Wh
+    energy-full:         33.8993 Wh
+    energy-full-design:  47.9325 Wh
+    energy-rate:         4.67761 W
+    voltage:             11.03 V
+    charge-cycles:       5
+    time to empty:       3.8 hours
+    percentage:          53%
+    capacity:            70.7229%
+    technology:          lithium-ion
+    icon-name:          'battery-good-symbolic'
+  History (rate):
+    1716394339	4.678	discharging
+    1716394316	4.037	discharging
+    1716394292	3.415	discharging
+    1716394246	3.691	discharging
+
+
+2024-05-23 00:12:39,965 INFO:CPU Information: scputimes(user=0.4, nice=0.0, system=0.1, idle=99.5, iowait=0.0, irq=0.0, softirq=0.0, steal=0.0, guest=0.0, guest_nice=0.0)
+2024-05-23 00:12:39,966 INFO:Network Information: {'lo': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='127.0.0.1', netmask='255.0.0.0', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 10>, address='::1', netmask='ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='00:00:00:00:00:00', netmask=None, broadcast=None, ptp=None)], 'wlp58s0': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.168.3.66', netmask='255.255.248.0', broadcast='172.168.7.255', ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 10>, address='fe80::f2d2:669b:3989:f8ae%wlp58s0', netmask='ffff:ffff:ffff:ffff::', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='74:d8:3e:95:f7:77', netmask=None, broadcast='ff:ff:ff:ff:ff:ff', ptp=None)], 'virbr0': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='192.168.122.1', netmask='255.255.255.0', broadcast='192.168.122.255', ptp=None), snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='52:54:00:c3:d3:bc', netmask=None, broadcast='ff:ff:ff:ff:ff:ff', ptp=None)], 'enp0s31f6': [snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='b0:5c:da:eb:8e:33', netmask=None, broadcast='ff:ff:ff:ff:ff:ff', ptp=None)]}
+2024-05-23 00:12:39,977 INFO:Audio Devices:
+**** List of PLAYBACK Hardware Devices ****
+card 0: sofhdadsp [sof-hda-dsp], device 0: HDA Analog (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 1: HDA Digital (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 3: HDMI1 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 4: HDMI2 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 5: HDMI3 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+
+2024-05-23 00:12:39,977 INFO:Checking keyboard...
+2024-05-23 00:12:49,979 WARNING:Keyboard check timed out. It may not be working properly.
+2024-05-23 00:12:49,979 INFO:Checking trackpad...
+2024-05-23 00:12:50,021 INFO:Trackpad is working properly.
+2024-05-23 00:40:01,704 INFO:Battery Information:
+  native-path:          BAT0
+  vendor:               Hewlett-Packard
+  model:                Primary
+  serial:               00001 2023/10/07
+  power supply:         yes
+  updated:              Thursday, 23 May, 2024 12:39:43 AM (18 seconds ago)
+  has history:          yes
+  has statistics:       yes
+  battery
+    present:             yes
+    rechargeable:        yes
+    state:               discharging
+    warning-level:       none
+    energy:              15.8928 Wh
+    energy-empty:        0 Wh
+    energy-full:         33.8993 Wh
+    energy-full-design:  47.9325 Wh
+    energy-rate:         6.11217 W
+    voltage:             11.087 V
+    charge-cycles:       5
+    time to empty:       2.6 hours
+    percentage:          46%
+    capacity:            70.7229%
+    technology:          lithium-ion
+    icon-name:          'battery-good-symbolic'
+  History (charge):
+    1716395960	46.000	discharging
+  History (rate):
+    1716395983	6.112	discharging
+    1716395960	6.049	discharging
+    1716395937	4.585	discharging
+    1716395891	4.322	discharging
+
+
+2024-05-23 00:40:01,704 INFO:Storage Information: Total: 250375106560, Used: 35772760064, Free: 201809457152
+2024-05-23 00:40:01,705 INFO:RAM Information: svmem(total=12336435200, available=9114820608, percent=26.1, used=2536542208, free=6900862976, active=1473912832, inactive=3177889792, buffers=139165696, cached=2759864320, shared=370290688, slab=267202560)
+2024-05-23 00:40:02,707 INFO:CPU Information: scputimes(user=0.3, nice=0.0, system=0.5, idle=99.2, iowait=0.0, irq=0.0, softirq=0.0, steal=0.0, guest=0.0, guest_nice=0.0)
+2024-05-23 00:40:02,708 INFO:Network Information: {'lo': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='127.0.0.1', netmask='255.0.0.0', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 10>, address='::1', netmask='ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='00:00:00:00:00:00', netmask=None, broadcast=None, ptp=None)], 'wlp58s0': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.168.3.66', netmask='255.255.248.0', broadcast='172.168.7.255', ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 10>, address='fe80::f2d2:669b:3989:f8ae%wlp58s0', netmask='ffff:ffff:ffff:ffff::', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='74:d8:3e:95:f7:77', netmask=None, broadcast='ff:ff:ff:ff:ff:ff', ptp=None)], 'virbr0': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='192.168.122.1', netmask='255.255.255.0', broadcast='192.168.122.255', ptp=None), snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='52:54:00:c3:d3:bc', netmask=None, broadcast='ff:ff:ff:ff:ff:ff', ptp=None)], 'enp0s31f6': [snicaddr(family=<AddressFamily.AF_PACKET: 17>, address='b0:5c:da:eb:8e:33', netmask=None, broadcast='ff:ff:ff:ff:ff:ff', ptp=None)]}
+2024-05-23 00:40:02,718 INFO:Audio Devices:
+**** List of PLAYBACK Hardware Devices ****
+card 0: sofhdadsp [sof-hda-dsp], device 0: HDA Analog (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 1: HDA Digital (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 3: HDMI1 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 4: HDMI2 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 5: HDMI3 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+
+2024-05-23 00:40:02,720 INFO:Available Ports:
+acpi_thermal_rel
+autofs
+block
+btrfs-control
+bus
+char
+console
+core
+cpu
+cpu_dma_latency
+cuse
+disk
+dma_heap
+dri
+drm_dp_aux0
+drm_dp_aux1
+drm_dp_aux2
+drm_dp_aux3
+ecryptfs
+fb0
+fd
+full
+fuse
+gpiochip0
+hidraw0
+hpet
+hugepages
+hwrng
+i2c-0
+i2c-1
+i2c-10
+i2c-2
+i2c-3
+i2c-4
+i2c-5
+i2c-6
+i2c-7
+i2c-8
+i2c-9
+initctl
+input
+kmsg
+kvm
+log
+loop0
+loop1
+loop2
+loop3
+loop4
+loop5
+loop6
+loop7
+loop-control
+mapper
+mcelog
+media0
+mei0
+mem
+mqueue
+net
+ng0n1
+null
+nvme0
+nvme0n1
+nvme0n1p1
+nvme0n1p2
+nvram
+port
+ppp
+psaux
+ptmx
+ptp0
+pts
+random
+rfkill
+rtc
+rtc0
+shm
+snapshot
+snd
+stderr
+stdin
+stdout
+tpm0
+tpmrm0
+tty
+tty0
+tty1
+tty10
+tty11
+tty12
+tty13
+tty14
+tty15
+tty16
+tty17
+tty18
+tty19
+tty2
+tty20
+tty21
+tty22
+tty23
+tty24
+tty25
+tty26
+tty27
+tty28
+tty29
+tty3
+tty30
+tty31
+tty32
+tty33
+tty34
+tty35
+tty36
+tty37
+tty38
+tty39
+tty4
+tty40
+tty41
+tty42
+tty43
+tty44
+tty45
+tty46
+tty47
+tty48
+tty49
+tty5
+tty50
+tty51
+tty52
+tty53
+tty54
+tty55
+tty56
+tty57
+tty58
+tty59
+tty6
+tty60
+tty61
+tty62
+tty63
+tty7
+tty8
+tty9
+ttyprintk
+ttyS0
+ttyS1
+ttyS10
+ttyS11
+ttyS12
+ttyS13
+ttyS14
+ttyS15
+ttyS16
+ttyS17
+ttyS18
+ttyS19
+ttyS2
+ttyS20
+ttyS21
+ttyS22
+ttyS23
+ttyS24
+ttyS25
+ttyS26
+ttyS27
+ttyS28
+ttyS29
+ttyS3
+ttyS30
+ttyS31
+ttyS4
+ttyS5
+ttyS6
+ttyS7
+ttyS8
+ttyS9
+udmabuf
+uhid
+uinput
+urandom
+userio
+v4l
+vboxdrv
+vboxdrvu
+vboxnetctl
+vboxusb
+vcs
+vcs1
+vcs2
+vcs3
+vcs4
+vcs5
+vcs6
+vcs7
+vcsa
+vcsa1
+vcsa2
+vcsa3
+vcsa4
+vcsa5
+vcsa6
+vcsa7
+vcsu
+vcsu1
+vcsu2
+vcsu3
+vcsu4
+vcsu5
+vcsu6
+vcsu7
+vfio
+vga_arbiter
+vhci
+vhost-net
+vhost-vsock
+video0
+video1
+zero
+zfs
+
